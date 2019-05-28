@@ -1,6 +1,6 @@
 # Filename: Singularity
 Bootstrap: docker
-From: continuumio/miniconda3:4.4.10
+From: continuumio/miniconda3:4.5.11
 
 %labels
    AUTHOR tkolisnik@...
