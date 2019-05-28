@@ -19,8 +19,8 @@ From: continuumio/miniconda3:4.6.14
    echo "Install tools."
    conda install --yes python=3.7.2
    snakemake=5.4.5
-   scikit-learn
-   scipy=1.2.1
+#   scikit-learn
+#   scipy=1.2.1
    pandas=0.24.2
    numpy=1.16.3
    numpy-base=1.16.3
