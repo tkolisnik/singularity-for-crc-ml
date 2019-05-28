@@ -28,6 +28,5 @@ From: continuumio/miniconda3:4.4.10
    numpy=1.16.3
    numpy-base=1.16.3
    openssl=1.1.1b
-   yaml=0.1.7
    rpy2=3.0.2
    conda clean --index-cache --tarballs --packages --yes
