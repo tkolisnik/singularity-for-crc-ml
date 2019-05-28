@@ -1,6 +1,6 @@
 # Filename: Singularity
 Bootstrap: docker
-From: continuumio/miniconda3:4.5.11
+From: continuumio/miniconda3:4.6.14
 
 %labels
    AUTHOR tkolisnik@...
@@ -12,7 +12,6 @@ From: continuumio/miniconda3:4.5.11
   export ANACONDA_HOME=/opt/conda
 
 %post
-   export PATH=/opt/conda/bin:$PATH
    echo "Add conda channels."
    conda config --add channels defaults
    conda config --add channels conda-forge
