@@ -18,7 +18,6 @@ From: continuumio/miniconda3:4.6.14
    conda config --add channels conda-forge
    echo "Install tools."
    conda install --yes python=3.7.2
-   python-dateutil=2.8.0
    python-irodsclient=0.7.0 
    snakemake=5.4.5
    snakemake-minimal=5.4.5
