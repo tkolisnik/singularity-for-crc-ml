@@ -25,5 +25,6 @@ From: continuumio/miniconda3:4.6.14
    numpy=1.16.3
    openssl=1.1.1b
    rpy2=3.0.2
-   conda install --yes scikit-learn
+   scikit-learn
+   #conda install --yes scikit-learn
    conda clean --index-cache --tarballs --packages --yes
