@@ -17,8 +17,8 @@ From: continuumio/miniconda3:4.6.14
    conda config --add channels defaults
    conda config --add channels conda-forge
    echo "Install tools."
-   conda install pip3
-   pip3 install scikit-learn scipy matplotlib
+   #conda install pip
+   conda install --yes scikit-learn scipy matplotlib
    #conda install --yes scikit-learn
    conda install --yes python=3.7.2
    snakemake=5.4.5
