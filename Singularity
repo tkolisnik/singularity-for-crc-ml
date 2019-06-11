@@ -25,6 +25,7 @@ From: continuumio/miniconda3:4.6.14
    numpy=1.16.3
    openssl=1.1.1b
    rpy2=3.0.2
+   pip3
    #scikit-learn
    #conda install --yes scikit-learn
    pip3 install -U scikit-learn scipy matplotlib
