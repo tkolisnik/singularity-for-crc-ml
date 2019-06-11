@@ -28,5 +28,5 @@ From: continuumio/miniconda3:4.6.14
    rpy2=3.0.2
    #scikit-learn
    #conda install --yes scikit-learn
-   #pip3 install -U scikit-learn scipy matplotlib
+   pip install -U scikit-learn scipy matplotlib
    conda clean --index-cache --tarballs --packages --yes
