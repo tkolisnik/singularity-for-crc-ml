@@ -12,12 +12,12 @@ From: continuumio/miniconda3:4.6.14
   export ANACONDA_HOME=/opt/conda
 
 %post
-   #export PATH=/opt/conda/bin:$PATH
+   export PATH=/opt/conda/bin:$PATH
    echo "Add conda channels."
    conda config --add channels defaults
    conda config --add channels conda-forge
    echo "Install tools."
-   conda install --yes pip
+   conda install --yes scikit-learn
    python=3.7.2
    snakemake=5.4.5
 #   scikit-learn
