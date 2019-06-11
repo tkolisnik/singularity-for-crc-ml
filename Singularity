@@ -18,12 +18,12 @@ From: continuumio/miniconda3:4.6.14
    conda config --add channels conda-forge
    echo "Install tools."
    #conda install pip
-   conda install --yes scikit-learn scipy matplotlib
+   conda install --yes scikit-learn scipy matplotlib pandas numpy
    #conda install --yes scikit-learn
    conda install --yes python=3.7.2
    snakemake=5.4.5
-   pandas=0.24.2
-   numpy=1.16.3
+   #pandas=0.24.2
+   #numpy=1.16.3
    openssl=1.1.1b
    rpy2=3.0.2
    #scikit-learn
