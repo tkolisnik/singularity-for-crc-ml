@@ -16,5 +16,5 @@ From: continuumio/miniconda3:4.6.14
    echo "Add conda channels."
    conda config --add channels defaults
    conda config --add channels conda-forge
-   conda install --yes scikit-learn scipy matplotlib pandas numpy rpy2
+   conda install --yes scikit-learn scipy matplotlib pandas numpy rpy2 libgfortran==1
    conda clean --index-cache --tarballs --packages --yes
